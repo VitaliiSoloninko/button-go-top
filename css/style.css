@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+}
+button {
+	background-color: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+p {
+	font-size: 40px;
+}
+.page {
+	padding: 250px;
+}
+
+.go-top {
+	position: fixed;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	/* display: none; */
+	font-size: 20px;
+	color: rgba(0, 51, 153, 0.5);
+	border: 1px solid rgba(0, 51, 153, 0.5);
+	background-color: rgba(0, 51, 153, 0.1);
+	padding: 15px 10px;
+}
+
+/*  
+.go-top:hover {
+	color: rgba(0, 51, 153, 0.8);
+	border: 1px solid rgba(0, 51, 153, 0.8);
+	background-color: rgba(0, 51, 153, 0.15);
+}
+*/
+/*
+
+.go-top--show {
+	display: block;
+}
+*/
